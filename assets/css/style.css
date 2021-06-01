@@ -16,6 +16,11 @@ Default CSS
 .mb-30{
     margin-bottom: 30px;
 }
+.margin{
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-bottom: 0px;
+}
 section{
     padding-top: 60px;
     padding-bottom: 30px;
@@ -73,6 +78,9 @@ Navbar
 .navbar img {
     width: 200px;
 }
+/* ===========
+Footer
+============== */
 #big-footer h4{
 color: white;
 font-weight: normal;
@@ -99,10 +107,3 @@ font-size: 18px;
     color: #727272;
     line-height: 0px;
 }
-.margin{
-    margin-left: 70px;
-    margin-right: 70px;
-    margin-bottom: 0px;
-}
-
-
