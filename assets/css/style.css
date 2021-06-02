@@ -5,6 +5,8 @@ Default CSS
 ==============*/
 *body{
     box-sizing: border-box;
+}
+body{
     font-family: 'Roboto', sans-serif;
 }
 :root{
@@ -16,8 +18,16 @@ Default CSS
 .mb-30{
     margin-bottom: 30px;
 }
+/* .px{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.py{
+    padding-top: 10px;
+    padding-bottom: 10px;
+} */
 .margin{
-    margin-left: 70px;
+    /* margin-left: 70px; */
     margin-right: 70px;
     margin-bottom: 0px;
 }
@@ -33,7 +43,7 @@ p{
     font-weight: 300;
     font-size: 14px;
     letter-spacing: 0px;
-    line-height: 1.3em;
+    line-height: 1.9em;
     margin-bottom: 1.25em;
     color: #727272;
 }
@@ -59,6 +69,9 @@ p{
     font-size: 18px;
     font-weight: 400;
     color: #676767;
+}
+.bg-color{
+    background-color: #EDEDED;
 }
 /* ==========
     Slider
@@ -90,6 +103,10 @@ Navbar
 .navbar img {
     width: 200px;
 }
+.navbar li a{
+    padding: 10px 15px;
+    font-size: 13px;
+}
 /* ===========
 Footer
 ============== */
@@ -116,4 +133,7 @@ font-size: 18px;
 #small-footer p{
     font-size: 10px;
     font-weight: bold;
+}
+.bg-footer{
+    background-color: #222222;
 }
